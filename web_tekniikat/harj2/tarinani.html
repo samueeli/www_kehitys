@@ -18,7 +18,6 @@
 
       h1,
       h2 {
-        text-align: center;
         color: rgb(47 97 189);
       }
 
@@ -46,6 +45,7 @@
         margin: auto;
         max-width: 800px;
         padding: 15px;
+        overflow: hidden;
       }
 
       /* Header */
@@ -57,10 +57,6 @@
         font-size: 0.7em;
       }
 
-      header img {
-        height: 200px;
-      }
-
       /* Sections coloring */
       section:nth-child(odd) {
         background-color: rgb(234 229 229);
@@ -70,6 +66,7 @@
       .yhteystietoni {
         text-align: center;
         padding: 15px;
+        padding-bottom: 30px;
       }
 
       /* Footer */
@@ -81,109 +78,85 @@
   </head>
   <body>
     <header>
-      <h1>Samuli Salminen<br /><i>Developer / Designer</i></h1>
+      <h1>Samuli Salminen<br /><i>Tarinani</i></h1>
       <nav>
         <p>
-          <a href="index.html">Etusivu</a> | <a href="portfolio.html">Portfolio</a> |
-          <a href="#" class="active">Tarinani</a>
+          <a href="index.html">Etusivu</a> | <a href="#">Portfolio</a> |
+          <a href="tarinani.html" class="active">Tarinani</a>
         </p>
       </nav>
-      <img src="images/samuli_portrait.jpg" alt="Portrait of Samuli Salminen" />
     </header>
     <section class="intro">
       <div class="content-width">
         <p>
-          Hei, olen Samuli. Itseoppinut front-end devaaja / muusikko / yrittäjä Tampereelta. Viimeisen vuoden ajan olen
-          toiminut helsinkiläisessä IT-alan yrityksessä
-          <strong><a href="http://www.raivo.io/" target="_blank">rAivo Oy</a></strong
-          >:ssä. Siellä olen saanut yhdistää osaamiseni useissa eri projekteissa tiimin johtamisesta game designiin ja
-          web devaukseen.<br />
-          Oli kyseessä sitten
-          <em>nettisivut, sovellussuunnittelu, musiikki- ja äänituotanto</em>
-          tai vaikkapa <em>graafinen suunnittelu</em>, minä tuon aina parhaan panokseni.
-        </p>
-        <p>
-          Tällä hetkellä teroitan taitojani
-          <strong><a href="https://www.jamk.fi/fi/Etusivu/" target="_blank">JAMK:in</a></strong>
-          Web-tekniikat kurssilla ja haaveilen IT-alan tutkinnosta. Pyrin aina olemaan ajantasalla viimeisimmistä
-          teknologioista ja opiskelemaan jatkuvasti uutta.
+          Meillä jokaisella on tarinamme; <em>milloin, miten, miksi</em> 
+          olemme päätyneet nykyiseen tilanteeseemme. Jotkut asiat elämässämme
+          tapahtuvat omien valintojemme seurauksena. Toisiin asioihin taas emme 
+          voi itse vaikuttaa. Avaan nyt teille hieman omaa tarinaani.
         </p>
       </div>
     </section>
-    <section class="osaamiseni">
+    <section class="taustaa">
       <div class="content-width">
-        <h2>Osaamiseni</h2>
+        <h2>Miten päädyin koodariksi?</h2>
         <p>
-          Alla mainitseviani taitoja käytän päivittäisessä työssäni. Tarvittaessa kykenen myös soveltamaan
-          osaamisaluettani muihin asioihin. Esimerkiksi JavaScriptin pohjalta olen työskennellyt ympäristöissä joissa on
-          käsitelty mm. PHP tai C# - ohjelmointikieliä.
+          Synnyin vuonna 1984 Turun keskussairaalassa. Vartuin kuitenkin
+          suurimman osan lapsuudestani Tampereella. Minun ikäluokassani
+          koodauksesta ei juurikaan puhuttu. Ainakaan se ei ollut suosittua.
+          Ensimmäiset atk-kurssini suoritin muistaakseni ylä-asteella.
+          Harjoittelimme kirjoittamaan tekstinkäsittely ohjelmalla ja
+          piirtämään MS Paintilla. Silloin sain myös ensikosketuksen internettiin
+          Netscapen välityksellä. En ollut järin innostunut näistä mistään.
+          Olin enemmä musiikkimiehiä. Musiikista tulikin myöhemmin ensimmäinen
+          ammattini.
         </p>
-        <ol>
-          <li>Web Development (HTML, CSS, JavaScript)</li>
-          <li>Web Design</li>
-          <li>Musiikkituotanto</li>
-        </ol>
         <p>
-          Lisäksi tech stackiini kuuluu mm.
-          <a href="https://reactjs.org/" target="_blank">React.js</a>,
-          <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby.js</a>,
-          <a href="https://nodejs.org/en/" target="_blank">Node.js</a>,
-          <a href="https://graphql.org/" target="_blank">GraphQL</a>,
-          <a href="https://www.mongodb.com/cloud/atlas" target="_blank">mongoDB</a>,
-          <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>,
-          <a href="https://www.netlifycms.org/" target="_blank">NetlifyCMS</a>,
-          <a href="https://fi.wordpress.org/" target="_blank">WordPress</a>.
+          Vanhempani olivat melko avoimia kultturien suhteen. Äitini oli lapsena asunut
+          Lontoossa ja muuttanut muutenkin paljon perheensä mukana. Kun minulle avautui
+          mahdollisuus lähteä USA:aan Los Angelesiin opiskelemaan musiikkia, tuntui
+          ajatus täysin luonnolliselta. Siellä opiskellessani tutustuin sveitsiläissuomalaiseen 
+          vaihto-oppilaaseen, Marianneen. Opintojen päätyttyä Los Angelesissa vuonna 2007, 
+          muutin Sveitsiin jossa Marianne ja minä menimme naimisiin. Sain työharjoittelupaikan
+          paikallisesta seurakunnasta, jossa toimin musiikkivastaavana. Hengellisyys kiinnosti
+          minua sen verran, että päätin opiskella pastoriksi.
+        </p>
+        <p>
+          Vuonna 2009 olimme muuttaneet Suomeen ja aloitin Hangossa nelivuotiset pastorin opinnot.
+          Valmistuttuani pastoriksi, jäimme vielä muutamaksi vuodeksi Hankoon jossa toimin
+          nuorisopastorina Hangon vapaaseurakunnassa. Tässä vaiheessa perheemme oli kasvanut 
+          5-henkiseksi ja koimme halua muuttaa isompaan kaupunkiin. Pakkasimme tavaramme
+          ja otimme suunnan kohti Tamperetta. 
+        </p>
+        <p>
+          Tampereelle saavuttaessa Marianne oli äitiysvapaalla ja minä työttömänä.
+          Isommat lapset menivät uusiin kouluihin ja pikkuinen jäi äitin kanssa kotiin.
+          Minä päätin perustaa musiikkialan yrityksen. Yritys jäi yritykseksi. 
+          Jonkin ajan kuluttua taloudellinen tilanteemme oli käynyt niin tiukaksi, 
+          että minun oli keksittävä jotain muuta. Aloin siivoojaksi.
+        </p>
+        <p>
+          Siivoojan työn oli tarkoitus olla vain väliaikaista, kunnes löytäisin oman alani töitä.
+          Samalla pelkäsin "mitä jos siihen kestää kolme vuotta?". En halunnut heittää vuosia
+          hukkaan. Aloin iltaisin töiden jälkeen opiskelemaan koodausta erilaisten nettikurssien
+          kautta. Miksi juuri koodausta? Eihän minulla ollut siitä mitään kokemusta. 
+          Kyseessä oli 100-prosenttisesti järkipäätös. Ajattelin "musiikki ja hengellinen -ala
+          ovat kumpikin sellaisia, joissa työpaikat ovat aina niukassa. Millä alalla 
+          tulevaisuudennäkymä on taattu?". Vastaus oli tietenkin tietotekniikka.
+          Puolenvuoden itsenäisen opiskelun jälkeen sain ensimmäisen IT-alan työpaikkani.
         </p>
       </div>
     </section>
-    <section class="ohjelmistot">
+    <section class="miten">
       <div class="content-width">
-        <h2>Käyttämiäni ohjelmistoja</h2>
+        <h2>Tänä päivänä</h2>
         <p>
-          Ohjelmistoja on monenlaisia. Itse olen valinnut käyttööni sellaiset jotka parhaiten tukevat workflotani. Kun
-          välineet on kunnossa, työnteko on mukavaa ja työnlaatu pysyy hyvänä.
+          Kesällä 2021 tulee täyteen puolitoista vuotta siitä, kun aloitin työt koodarina.
+          Vaikka ajatus koodaamisesta ei syntynytkään omasta visiostani elämälleni, on siitä
+          kehkeytynyt yksi mielekkäimmistä asioista joita saan tänä päivänä tehdä. Olen
+          superkiitollinen siitä, miten monet asiat ovat menneet. Elämässä tulee kaikennäköisiä
+          koettelemuksia ja ahtaita tilanteita, mutta joskus niiden kautta voi löytää
+          jotain arvokasta mitä ei muuten olisi koskaan ehkä löytänyt.
         </p>
-        <ul>
-          <li>
-            <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
-          </li>
-          <li><a href="https://unity.com/" target="_blank">Unity</a></li>
-          <li>
-            <a href="https://inkscape.org/" target="_blank">Inkscape</a>
-          </li>
-          <li><a href="https://www.gimp.org/" target="_blank">GIMP</a></li>
-          <li>
-            <a href="https://www.blender.org/" target="_blank">Blender</a>
-          </li>
-          <li>
-            <a href="https://www.apple.com/logic-pro/" target="_blank">Logic Pro X</a>
-          </li>
-          <li>
-            <a href="https://www.avid.com/pro-tools" target="_blank">Avid Pro Tools</a>
-          </li>
-          <li>
-            <a href="https://www.cakewalk.com/products/SONAR" target="_blank">Cakewalk Sonar</a>
-          </li>
-          <li>
-            <a href="https://www.presonus.com/" target="_blank">Studio One</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="kiinnostukset">
-      <div class="content-width">
-        <h2>Kiinnostuksen kohteeni & harrastukset</h2>
-        <p>
-          Suurin kiinnostuksen kohteeni on oma perheeni. Olen kolmen lapsen isä ja minulla on ihana vaimo. Töiden ja
-          perheen jälkeen aikaa jää vielä pikkuiseen harrasteluunkin.<br />
-          Tässä joitakin niistä:
-        </p>
-        <ul>
-          <li>musiikki</li>
-          <li>kuntoilu</li>
-          <li>elokuvat</li>
-          <li>kalastus</li>
-        </ul>
       </div>
     </section>
     <section class="yhteystietoni">
@@ -196,16 +169,18 @@
       </address>
     </section>
     <footer>
-      <hr style="margin-top: 20px" />
+      <hr />
       <div class="content-width">
-        <small>
-          Tämä sivu on
-          <a href="https://www.jamk.fi/fi/Etusivu/" target="_blank">
-            <strong>JAMK:in</strong>
-          </a>
-          Web-tekniikat kurssin kurssitehtävä. Olen pyrkinyt käyttämään sivun tekemiseen ainoastaan tekniikoita joita on
-          jo käsitelty tässä vaiheessa kurssia.
-        </small>
+        <p>
+          <small>
+            Tämä sivu on
+            <a href="https://www.jamk.fi/fi/Etusivu/" target="_blank">
+              <strong>JAMK:in</strong>
+            </a>
+            Web-tekniikat kurssin kurssitehtävä. Olen pyrkinyt käyttämään sivun tekemiseen ainoastaan tekniikoita joita
+            on jo käsitelty tässä vaiheessa kurssia.
+          </small>
+        </p>
       </div>
       <hr />
       <p><a href="../../index.html">Harjoitusten hakemisto</a></p>
