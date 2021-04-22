@@ -22,24 +22,24 @@
         color: rgb(47 97 189);
       }
 
-      a{
+      a {
         text-decoration: none;
         color: rgb(156, 124, 124);
         transition: all 0.2s;
       }
 
-      a:visited{
+      a:visited {
         color: indigo;
       }
 
-      a:hover{
-        color:rgb(47 97 189);
+      a:hover {
+        color: rgb(47 97 189);
         text-decoration: underline;
       }
 
-      a.active{
+      a.active {
         text-decoration: underline;
-        color:rgb(47 97 189);
+        color: rgb(47 97 189);
       }
 
       .content-width {
@@ -68,14 +68,14 @@
       }
 
       /* Yhteystietoni */
-      .yhteystietoni{
+      .yhteystietoni {
         text-align: center;
         padding: 15px;
         padding-bottom: 30px;
       }
 
       /* Footer */
-      footer{
+      footer {
         text-align: center;
       }
     </style>
@@ -84,7 +84,12 @@
   <body>
     <header>
       <h1>Samuli Salminen<br /><i>Developer / Designer</i></h1>
-      <nav><p><a href="#" class="active">Etusivu</a> | <a href="portfolio.html">Portfolio</a> | <a href="tarinani.html">Tarinani</a></p></nav>
+      <nav>
+        <p>
+          <a href="#" class="active">Etusivu</a> | <a href="portfolio.html">Portfolio</a> |
+          <a href="tarinani.html">Tarinani</a>
+        </p>
+      </nav>
       <img src="images/samuli_portrait.jpg" alt="Portrait of Samuli Salminen" />
     </header>
     <section class="intro">
@@ -92,8 +97,9 @@
         <p>
           Hei, olen Samuli. Itseoppinut front-end devaaja / muusikko / yrittäjä Tampereelta. Viimeisen vuoden ajan olen
           toiminut helsinkiläisessä IT-alan yrityksessä
-          <strong><a href="http://www.raivo.io/" target="_blank">rAivo Oy</a></strong>:ssä. Siellä olen
-          saanut yhdistää osaamiseni useissa eri projekteissa tiimin johtamisesta game designiin ja web devaukseen.<br />
+          <strong><a href="http://www.raivo.io/" target="_blank">rAivo Oy</a></strong
+          >:ssä. Siellä olen saanut yhdistää osaamiseni useissa eri projekteissa tiimin johtamisesta game designiin ja
+          web devaukseen.<br />
           Oli kyseessä sitten
           <em>nettisivut, sovellussuunnittelu, musiikki- ja äänituotanto</em>
           tai vaikkapa <em>graafinen suunnittelu</em>, minä tuon aina parhaan panokseni.
@@ -110,10 +116,9 @@
       <div class="content-width">
         <h2>Osaamiseni</h2>
         <p>
-          Alla mainitseviani taitoja käytän päivittäisessä työssäni. 
-          Tarvittaessa kykenen myös soveltamaan osaamisaluettani muihin asioihin.
-          Esimerkiksi JavaScriptin pohjalta olen työskennellyt ympäristöissä joissa on käsitelty
-          mm. PHP tai C# - ohjelmointikieliä.
+          Alla mainitseviani taitoja käytän päivittäisessä työssäni. Tarvittaessa kykenen myös soveltamaan
+          osaamisaluettani muihin asioihin. Esimerkiksi JavaScriptin pohjalta olen työskennellyt ympäristöissä joissa on
+          käsitelty mm. PHP tai C# - ohjelmointikieliä.
         </p>
         <ol>
           <li>Web Development (HTML, CSS, JavaScript)</li>
@@ -137,9 +142,8 @@
       <div class="content-width">
         <h2>Käyttämiäni ohjelmistoja</h2>
         <p>
-          Ohjelmistoja on monenlaisia. Itse olen valinnut käyttööni sellaiset
-          jotka parhaiten tukevat workflotani. Kun välineet on kunnossa, työnteko on
-          mukavaa ja työnlaatu pysyy hyvänä.
+          Ohjelmistoja on monenlaisia. Itse olen valinnut käyttööni sellaiset jotka parhaiten tukevat workflotani. Kun
+          välineet on kunnossa, työnteko on mukavaa ja työnlaatu pysyy hyvänä.
         </p>
         <ul>
           <li>
@@ -171,43 +175,40 @@
     <section class="kiinnostukset">
       <div class="content-width">
         <h2>Kiinnostuksen kohteeni & harrastukset</h2>
-      <p>
-        Suurin kiinnostuksen kohteeni on oma perheeni. Olen kolmen lapsen isä ja minulla on ihana vaimo. Töiden ja
-        perheen jälkeen aikaa jää vielä pikkuiseen harrasteluunkin.<br />
-        Tässä joitakin niistä:
-      </p>
-      <ul>
-        <li>musiikki</li>
-        <li>kuntoilu</li>
-        <li>elokuvat</li>
-        <li>kalastus</li>
-      </ul>
+        <p>
+          Suurin kiinnostuksen kohteeni on oma perheeni. Olen kolmen lapsen isä ja minulla on ihana vaimo. Töiden ja
+          perheen jälkeen aikaa jää vielä pikkuiseen harrasteluunkin.<br />
+          Tässä joitakin niistä:
+        </p>
+        <ul>
+          <li>musiikki</li>
+          <li>kuntoilu</li>
+          <li>elokuvat</li>
+          <li>kalastus</li>
+        </ul>
       </div>
-      
     </section>
     <section class="yhteystietoni">
       <h2>Yhteystietoni</h2>
       <address>
         Email:
-      <a href="mailto:samuli.salminen@raivo.io">samuli.salminen@raivo.io</a><br />
-      Github:
-      <a href="https://github.com/samueeli" target="_blank">github.com/samueeli</a>
+        <a href="mailto:samuli.salminen@raivo.io">samuli.salminen@raivo.io</a><br />
+        Github:
+        <a href="https://github.com/samueeli" target="_blank">github.com/samueeli</a>
       </address>
     </section>
     <footer>
-      <hr/>
-      <p>
-        <div class="content-width">
-          <small>
-            Tämä sivu on
-            <a href="https://www.jamk.fi/fi/Etusivu/" target="_blank">
-              <strong>JAMK:in</strong>
-            </a>
-            Web-tekniikat kurssin kurssitehtävä. Olen pyrkinyt käyttämään sivun tekemiseen ainoastaan tekniikoita joita on
-            jo käsitelty tässä vaiheessa kurssia.
-          </small>
-        </div>
-      </p>
+      <hr />
+      <div class="content-width">
+        <small>
+          Tämä sivu on
+          <a href="https://www.jamk.fi/fi/Etusivu/" target="_blank">
+            <strong>JAMK:in</strong>
+          </a>
+          Web-tekniikat kurssin kurssitehtävä. Olen pyrkinyt käyttämään sivun tekemiseen ainoastaan tekniikoita joita on
+          jo käsitelty tässä vaiheessa kurssia.
+        </small>
+      </div>
       <hr />
       <p><a href="../../index.html">Harjoitusten hakemisto</a></p>
     </footer>
