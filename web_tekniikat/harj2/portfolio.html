@@ -16,10 +16,12 @@
         background-color: snow;
       }
 
-      h1,
-      h2 {
-        text-align: center;
+      h1, h2{
         color: rgb(47 97 189);
+      }
+
+      h4{
+        margin-top: 0;
       }
 
       a{
@@ -46,6 +48,7 @@
         margin: auto;
         max-width: 800px;
         padding: 15px;
+        overflow: hidden;
       }
 
       /* Header */
@@ -66,10 +69,28 @@
         background-color: rgb(234 229 229);
       }
 
+      /* Work sections */
+      .text-box{
+        float: left;
+        max-width: 50%;
+      }
+
+      .image-box{
+        float: right;
+      }
+
+      .image{
+        height: 200px;
+        width: 300px;
+        background-color: olivedrab;
+        margin: 20px 0 20px 0;
+      }
+
       /* Yhteystietoni */
       .yhteystietoni{
         text-align: center;
         padding: 15px;
+        padding-bottom: 30px;
       }
 
       /* Footer */
@@ -81,107 +102,65 @@
   </head>
   <body>
     <header>
-      <h1>Samuli Salminen<br /><i>Developer / Designer</i></h1>
+      <h1>Samuli Salminen<br /><i>Portfolio</i></h1>
       <nav><p><a href="index.html">Etusivu</a> | <a href="#" class="active">Portfolio</a> | <a href="tarinani.html">Tarinani</a></p></nav>
-      <img src="images/samuli_portrait.jpg" alt="Portrait of Samuli Salminen" />
     </header>
     <section class="intro">
       <div class="content-width">
         <p>
-          Hei, olen Samuli. Itseoppinut front-end devaaja / muusikko / yrittäjä Tampereelta. Viimeisen vuoden ajan olen
-          toiminut helsinkiläisessä IT-alan yrityksessä
-          <strong><a href="http://www.raivo.io/" target="_blank">rAivo Oy</a></strong>:ssä. Siellä olen
-          saanut yhdistää osaamiseni useissa eri projekteissa tiimin johtamisesta game designiin ja web devaukseen.<br />
-          Oli kyseessä sitten
-          <em>nettisivut, sovellussuunnittelu, musiikki- ja äänituotanto</em>
-          tai vaikkapa <em>graafinen suunnittelu</em>, minä tuon aina parhaan panokseni.
-        </p>
-        <p>
-          Tällä hetkellä teroitan taitojani
-          <strong><a href="https://www.jamk.fi/fi/Etusivu/" target="_blank">JAMK:in</a></strong>
-          Web-tekniikat kurssilla ja haaveilen IT-alan tutkinnosta. Pyrin aina olemaan ajantasalla viimeisimmistä
-          teknologioista ja opiskelemaan jatkuvasti uutta.
+          Olen ollut työelämässä toistakymmentä vuotta ja kokemustakin on jo ehtinyt kertyä. 
+          Olen toiminut mm. vartijana, muusikkona, soitonopettajana, pastorina ja yrittäjänä.<br>
+          Tältä sivulta löydät viimeaikaisia töitäni koodaamisen ja designin alueilta.
         </p>
       </div>
     </section>
-    <section class="osaamiseni">
+    <section class="avara">
       <div class="content-width">
-        <h2>Osaamiseni</h2>
-        <p>
-          Alla mainitseviani taitoja käytän päivittäisessä työssäni. 
-          Tarvittaessa kykenen myös soveltamaan osaamisaluettani muihin asioihin.
-          Esimerkiksi JavaScriptin pohjalta olen työskennellyt ympäristöissä joissa on käsitelty
-          mm. PHP tai C# - ohjelmointikieliä.
-        </p>
-        <ol>
-          <li>Web Development (HTML, CSS, JavaScript)</li>
-          <li>Web Design</li>
-          <li>Musiikkituotanto</li>
-        </ol>
-        <p>
-          Lisäksi tech stackiini kuuluu mm.
-          <a href="https://reactjs.org/" target="_blank">React.js</a>,
-          <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby.js</a>,
-          <a href="https://nodejs.org/en/" target="_blank">Node.js</a>,
-          <a href="https://graphql.org/" target="_blank">GraphQL</a>,
-          <a href="https://www.mongodb.com/cloud/atlas" target="_blank">mongoDB</a>,
-          <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>,
-          <a href="https://www.netlifycms.org/" target="_blank">NetlifyCMS</a>,
-          <a href="https://fi.wordpress.org/" target="_blank">WordPress</a>.
-        </p>
+        <div class="text-box">
+          <a href="" target="_blank"><h2>vuokrauspalvelu</h2></a>
+          <h4>UI/UX DESIGN</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum eaque repellat repellendus perspiciatis, ad amet aperiam dicta ipsum dignissimos impedit totam voluptatum minima accusamus tempore facere ratione vero. Commodi impedit reprehenderit itaque quibusdam quo omnis autem vitae esse eos corrupti.</p>
+        </div>
+        <div class="image-box">
+          <div class="image"></div>
+        </div>
       </div>
     </section>
-    <section class="ohjelmistot">
+    <section class="raivo">
       <div class="content-width">
-        <h2>Käyttämiäni ohjelmistoja</h2>
-        <p>
-          Ohjelmistoja on monenlaisia. Itse olen valinnut käyttööni sellaiset
-          jotka parhaiten tukevat workflotani. Kun välineet on kunnossa, työnteko on
-          mukavaa ja työnlaatu pysyy hyvänä.
-        </p>
-        <ul>
-          <li>
-            <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
-          </li>
-          <li><a href="https://unity.com/" target="_blank">Unity</a></li>
-          <li>
-            <a href="https://inkscape.org/" target="_blank">Inkscape</a>
-          </li>
-          <li><a href="https://www.gimp.org/" target="_blank">GIMP</a></li>
-          <li>
-            <a href="https://www.blender.org/" target="_blank">Blender</a>
-          </li>
-          <li>
-            <a href="https://www.apple.com/logic-pro/" target="_blank">Logic Pro X</a>
-          </li>
-          <li>
-            <a href="https://www.avid.com/pro-tools" target="_blank">Avid Pro Tools</a>
-          </li>
-          <li>
-            <a href="https://www.cakewalk.com/products/SONAR" target="_blank">Cakewalk Sonar</a>
-          </li>
-          <li>
-            <a href="https://www.presonus.com/" target="_blank">Studio One</a>
-          </li>
-        </ul>
+        <div class="text-box">
+          <a href="" target="_blank"><h2>raivo.io</h2></a>
+          <h4>UI/UX DESIGN</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum eaque repellat repellendus perspiciatis, ad amet aperiam dicta ipsum dignissimos impedit totam voluptatum minima accusamus tempore facere ratione vero. Commodi impedit reprehenderit itaque quibusdam quo omnis autem vitae esse eos corrupti.</p>
+        </div>
+        <div class="image-box">
+          <div class="image"></div>
+        </div>
       </div>
     </section>
-    <section class="kiinnostukset">
+    <section class="bobtravels">
       <div class="content-width">
-        <h2>Kiinnostuksen kohteeni & harrastukset</h2>
-      <p>
-        Suurin kiinnostuksen kohteeni on oma perheeni. Olen kolmen lapsen isä ja minulla on ihana vaimo. Töiden ja
-        perheen jälkeen aikaa jää vielä pikkuiseen harrasteluunkin.<br />
-        Tässä joitakin niistä:
-      </p>
-      <ul>
-        <li>musiikki</li>
-        <li>kuntoilu</li>
-        <li>elokuvat</li>
-        <li>kalastus</li>
-      </ul>
+        <div class="text-box">
+          <a href="" target="_blank"><h2>bobtravels</h2></a>
+          <h4>UI/UX DESIGN</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum eaque repellat repellendus perspiciatis, ad amet aperiam dicta ipsum dignissimos impedit totam voluptatum minima accusamus tempore facere ratione vero. Commodi impedit reprehenderit itaque quibusdam quo omnis autem vitae esse eos corrupti.</p>
+        </div>
+        <div class="image-box">
+          <div class="image"></div>
+        </div>
       </div>
-      
+    </section>
+    <section class="samiasp">
+      <div class="content-width">
+        <div class="text-box">
+          <a href="" target="_blank"><h2>samiasp.com</h2></a>
+          <h4>UI/UX DESIGN</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum eaque repellat repellendus perspiciatis, ad amet aperiam dicta ipsum dignissimos impedit totam voluptatum minima accusamus tempore facere ratione vero. Commodi impedit reprehenderit itaque quibusdam quo omnis autem vitae esse eos corrupti.</p>
+        </div>
+        <div class="image-box">
+          <div class="image"></div>
+        </div>
+      </div>
     </section>
     <section class="yhteystietoni">
       <h2>Yhteystietoni</h2>
@@ -193,7 +172,7 @@
       </address>
     </section>
     <footer>
-      <hr style="margin-top: 20px" />
+      <hr/>
       <p>
         <div class="content-width">
           <small>
