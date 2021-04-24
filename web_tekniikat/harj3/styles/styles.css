@@ -1,0 +1,148 @@
+:root{
+  --primary-dark: #004ba0;
+  --primary-mid: #1976d2; 
+  --primary-light: #63a4ff;
+  --secondary-dark: #bc5100;
+  --secondary-mid: #f57f17;
+  --secondary-light: #ffb04c;
+  --text-dark: #000;
+  --text-light: #fff;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: black;
+  background-color: snow;
+}
+
+/* Common */
+h1,
+h2 {
+  text-align: center;
+  color: rgb(47 97 189);
+}
+
+h1{
+  margin-top: 0;
+  padding-top: .5em;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(156, 124, 124);
+  transition: all 0.2s;
+}
+
+a:visited {
+  color: indigo;
+}
+
+a:hover {
+  color: rgb(47 97 189);
+  text-decoration: underline;
+}
+
+a.active {
+  text-decoration: underline;
+  color: rgb(47 97 189);
+}
+
+.content-width {
+  margin: auto;
+  max-width: 800px;
+  padding: 15px;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+header i {
+  font-size: 0.7em;
+}
+
+header img {
+  height: 200px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.45);
+}
+
+/* Sections */
+section:nth-child(odd) {
+  background-color: rgb(234 229 229);
+}
+
+/* Yhteystietoni */
+.yhteystietoni {
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Portfolio ---------------------------------
+----------------------------------------------- */
+
+ /* Work sections */
+ .work-row .column{
+   float: left;
+ }
+
+ .work-row .image-box{
+   float: right;
+ }
+
+ .text-box{
+   width: 50%;
+ }
+
+ .work-row:after{
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+.image {
+  height: 200px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(47 97 189);
+  margin: 20px 0 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+  transition: all 0.4s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.avara .image {
+  background-image: url(../images/vuokrauspalvelu.jpg);
+}
+
+.raivo .image {
+  background-image: url(../images/raivo.jpg);
+}
+
+.bobtravels .image {
+  background-image: url(../images/bobtravels.jpg);
+}
+
+.samiasp .image {
+  background-image: url(../images/samiasp.jpg);
+}
+
+/* Tarinani ---------------------------------
+----------------------------------------------- */
