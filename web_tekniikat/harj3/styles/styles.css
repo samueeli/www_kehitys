@@ -1,6 +1,6 @@
-:root{
+:root {
   --primary-dark: #004ba0;
-  --primary-mid: #1976d2; 
+  --primary-mid: #1976d2;
   --primary-light: #63a4ff;
   --secondary-dark: #bc5100;
   --secondary-mid: #f57f17;
@@ -9,24 +9,23 @@
   --text-light: #fff;
 }
 
+/* Common */
 body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  color: black;
   background-color: snow;
 }
 
-/* Common */
 h1,
 h2 {
   text-align: center;
   color: rgb(47 97 189);
 }
 
-h1{
+h1 {
   margin-top: 0;
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 
 h4 {
@@ -93,24 +92,24 @@ footer {
 /* Portfolio ---------------------------------
 ----------------------------------------------- */
 
- /* Work sections */
- .work-row .column{
-   float: left;
- }
+/* Work sections */
+.work-row .column {
+  float: left;
+}
 
- .work-row .image-box{
-   float: right;
- }
+.work-row .image-box {
+  float: right;
+}
 
- .text-box{
-   width: 50%;
- }
+.text-box {
+  width: 50%;
+}
 
- .work-row:after{
-   content: "";
-   display: table;
-   clear: both;
- }
+.work-row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
 
 .image {
   height: 200px;
