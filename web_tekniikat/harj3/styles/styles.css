@@ -20,12 +20,22 @@ body {
 h1,
 h2 {
   text-align: center;
-  color: rgb(47 97 189);
+  color: snow;
 }
 
 h1 {
   margin-top: 0;
-  padding-top: 0.5em;
+  padding-top: 0.7em;
+}
+
+h2{
+  background-color: var(--primary-mid);
+  padding: 7px;
+}
+
+h2 span{
+  margin: 0;
+  color: var(--secondary-light);
 }
 
 h4 {
@@ -34,22 +44,17 @@ h4 {
 
 a {
   text-decoration: none;
-  color: rgb(156, 124, 124);
-  transition: all 0.2s;
+  color: var(--secondary-light);
+  transition: color 0.2s;
 }
 
 a:visited {
-  color: indigo;
+  color: rgb(116, 11, 191);
 }
 
 a:hover {
-  color: rgb(47 97 189);
+  color: var(--secondary-mid);
   text-decoration: underline;
-}
-
-a.active {
-  text-decoration: underline;
-  color: rgb(47 97 189);
 }
 
 .content-width {
@@ -61,14 +66,51 @@ a.active {
 /* Header */
 header {
   text-align: center;
+  background-color: var(--primary-mid);
 }
 
 header i {
   font-size: 0.7em;
 }
 
-header img {
+nav{
+  background-color: var(--primary-dark);
+  color: var(--secondary-light);
+}
+
+nav p, nav a{
+  margin: 0;
+  padding: 7px;
+}
+
+nav a:visited{
+  color: var(--secondary-light);
+}
+
+nav a.active {
+  text-decoration: underline;
+  color: white;
+}
+
+nav a:hover{
+  color: var(--secondary-mid);
+  text-decoration: none;
+}
+
+nav a.active:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+/* Intro */
+.portrait{
+  text-align: center;
+  background-color: transparent;
+}
+
+.intro img {
   height: 200px;
+  margin: auto;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.45);
 }
 
@@ -109,6 +151,19 @@ footer {
   content: '';
   display: table;
   clear: both;
+}
+
+.text-box h2{
+  transition: all .2s ease;
+}
+
+.text-box h2:hover{
+  color: var(--secondary-light);
+  background-color: var(--primary-dark);
+}
+
+.text-box a:hover{
+  text-decoration: none;
 }
 
 .image {
