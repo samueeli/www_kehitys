@@ -44,7 +44,7 @@ h4 {
 
 a {
   text-decoration: none;
-  color: var(--secondary-light);
+  color: var(--secondary-mid);
   transition: color 0.2s;
 }
 
@@ -53,7 +53,7 @@ a:visited {
 }
 
 a:hover {
-  color: var(--secondary-mid);
+  color: var(--secondary-light);
   text-decoration: underline;
 }
 
@@ -75,12 +75,12 @@ header i {
 
 nav{
   background-color: var(--primary-dark);
-  color: var(--secondary-light);
 }
 
 nav p, nav a{
   margin: 0;
   padding: 7px;
+  color: var(--secondary-light);
 }
 
 nav a:visited{
