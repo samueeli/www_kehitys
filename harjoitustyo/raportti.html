@@ -6,18 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web-tekniikat - Harjoitustyön raportti</title>
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
       body {
-        max-width: 700px;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
       }
       h2 {
         background-color: lightgray;
       }
+      h2,
+      h3,
+      h4,
+      h5 {
+        padding: 5px;
+      }
+      section {
+        margin: auto;
+        max-width: 700px;
+      }
+      p {
+        margin-left: 15px;
+      }
+      .image {
+        text-align: center;
+      }
       .rakenne img {
         width: 500px;
+      }
+
+      /* NAVIGAATIO */
+      #hamburger {
+        display: none;
+      }
+      #nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        text-align: end;
+      }
+      #nav label {
+        display: inline-block;
+        color: white;
+        background: gray;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+      }
+      #navitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        padding: 5px 10px;
+        background-color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        text-align: left;
+        color: white;
+        transition: color 0.2s;
+      }
+      #navitems a:hover {
+        color: black;
+      }
+      #navitems {
+        display: none;
+        margin-left: auto;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+      }
+      #nav input:checked ~ #navitems {
+        display: block;
+        width: max-content;
       }
     </style>
   </head>
   <body>
+    <!-- NAV -->
+    <nav id="nav">
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger" />
+      <div id="navitems">
+        <a href="#">Sivun alkuun</a>
+        <a href="#synopsis">1. Synopsis</a>
+        <a href="#rakenne">2. Rakennekaavio</a>
+        <a href="#layout">3. Layout suunnitelma</a>
+        <a href="#test">4. Testaamistulokset</a>
+        <a href="#resurssit">5. Resurssien erittely</a>
+        <a href="#kommentit">6. Kommentit ja itsearviointi</a>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
     <header>
       <h1>
         Harjoitustyön raportti<br />
@@ -26,8 +108,8 @@
     </header>
 
     <!-- SYNOPSIS -->
-    <section>
-      <h2>Synopsis</h2>
+    <section id="synopsis">
+      <h2>1. Synopsis</h2>
       <h4>Tehtävä tuote:</h4>
       <p>
         Tehdään hekilökohtainen sivusto, jonka tarkoituksena on esitellä henkilön portfolio sekä yleinen kuvaus hänen
@@ -88,13 +170,35 @@
     </section>
 
     <!-- RAKENNEKAAVIO -->
-    <section class="rakenne">
-      <h2>Rakennekaavio</h2>
+    <section class="rakenne" id="rakenne">
+      <h2>2. Rakennekaavio</h2>
       <p>
         Vähän köyhältä näyttää menu structure tällä kertaa. Tarkoitus on pitää sivut ja menu mahdollisimman
         yksinkertaisena, joten tämä palvelee tarkoitustaan.
       </p>
-      <img src="images/rakennekaavio.jpg" alt="kuva rakennekaaviosta" />
+      <div class="image">
+        <img src="images/rakennekaavio.jpg" alt="kuva rakennekaaviosta" />
+      </div>
+    </section>
+
+    <!-- LAYOUT SUUNNITELMA -->
+    <section id="layout">
+      <h2>3. Layout suunnitelma</h2>
+    </section>
+
+    <!-- TESTAAMISTULOKSET -->
+    <section id="test">
+      <h2>4. Testaamistulokset</h2>
+    </section>
+
+    <!-- RESURSSIEN ERITTELY -->
+    <section id="resurssit">
+      <h2>5. Resurssien erittely</h2>
+    </section>
+
+    <!-- KOMMENTIT JA ITSEARVIO -->
+    <section id="kommentit">
+      <h2>6. Kommentit ja itsearviointi</h2>
     </section>
   </body>
 </html>
