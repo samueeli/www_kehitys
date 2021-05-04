@@ -25,6 +25,12 @@ p{
   line-height: 1.5em;
 }
 
+.material-icons{
+  font-size: 1.1em;
+  vertical-align: bottom;
+  color: inherit;
+}
+
 main{
   width: 90%;
   /* max-width: 960px; */
@@ -72,6 +78,10 @@ nav a{
   color: inherit;
 }
 
+nav .material-icons{
+  margin-right: .5em;
+}
+
 nav a.active{
   background-color:#57575770;
 }
@@ -87,6 +97,10 @@ section{
   width: 100%;
   text-align: center;
   overflow: auto;
+}
+
+section .material-icons{
+  margin-left: .7rem;
 }
 
 #content_left, #content_right{
@@ -115,4 +129,13 @@ section{
 
 footer{
   clear: both;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover{
+  color: #575757;
 }
