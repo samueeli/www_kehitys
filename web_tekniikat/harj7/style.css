@@ -1,0 +1,40 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{
+  text-align: center;
+  margin-top: 4rem;
+  color: rgb(91, 91, 91);
+}
+
+/* GALLERY */
+.gallery-section{
+  text-align: center;
+  max-width: 1000px;
+}
+
+.gallery-section img{
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+  border-radius: 2px;
+  transition: all .3s ease;
+}
+
+.gallery-section img:hover{
+  transform: scale(1.05);
+}
+
+/* VIDEO */
