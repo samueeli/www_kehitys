@@ -39,8 +39,8 @@ h2 {
 }
 
 /* VIDEO BACKGROUND */
-.video-bg-section h2{
-  margin-bottom: 2.5em;
+.video-bg-section h2 {
+  margin-bottom: 3rem;
 }
 
 .video-container {
@@ -69,6 +69,55 @@ h2 {
 }
 
 /* AUDIO */
-
+.audio-section h2 {
+  margin-bottom: 2.5rem;
+}
 
 /* AUDIO BG */
+.audio-bg {
+  text-align: center;
+}
+
+.audio-bg h2 {
+  margin-bottom: 2.5rem;
+}
+
+.groove-btn {
+  background: linear-gradient(to right, red, rgb(227, 219, 10));
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-bottom: 4rem;
+  border-radius: 50px;
+  font-size: 1.5em;
+  font-weight: 600;
+  box-shadow: 0 0 5px rgba(91, 91, 91, 0.5);
+  color: white;
+  text-decoration: none;
+}
+
+.groove-btn:hover {
+  animation: groove 1.01s linear infinite;
+}
+
+/* GROOVELAB */
+.groove-lab audio{
+  display: none;
+}
+
+.groove-lab h1{
+  animation: groove 1.01s linear infinite;
+}
+
+.groove-lab h1 span{
+  color: rgb(255, 174, 0);
+}
+
+@keyframes groove {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
