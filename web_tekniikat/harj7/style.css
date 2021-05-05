@@ -85,6 +85,7 @@ h2 {
 }
 
 .groove-btn {
+  display: inline-block;
   background: linear-gradient(to right, red, rgb(227, 219, 10));
   padding: 10px 20px;
   margin-left: 10px;
@@ -114,6 +115,7 @@ h2 {
   color: rgb(255, 174, 0);
 }
 
+/* ANIMATIONS */
 @keyframes groove {
   0%,
   100% {
