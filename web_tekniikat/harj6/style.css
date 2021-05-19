@@ -11,10 +11,6 @@ body{
   font-size: 100%;
 }
 
-h1{
-  
-}
-
 h2,h3{
   color: #E49A2F;
   margin: 1rem;
@@ -138,4 +134,10 @@ footer a{
 
 footer a:hover{
   color: #575757;
+}
+
+.sources li{
+  list-style: none;
+  word-wrap: break-word;
+  margin-bottom: 10px;
 }
