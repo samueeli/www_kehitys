@@ -14,8 +14,12 @@ body {
 h1,
 h2 {
   text-align: center;
-  margin-top: 4rem;
+  margin: 2rem 0;
   color: rgb(91, 91, 91);
+}
+
+section{
+  margin-bottom: 4rem;
 }
 
 /* GALLERY */
@@ -39,9 +43,6 @@ h2 {
 }
 
 /* VIDEO BACKGROUND */
-.video-bg-section h2 {
-  margin-bottom: 3rem;
-}
 
 .video-container {
   position: relative;
@@ -70,18 +71,9 @@ h2 {
   padding: 40px;
 }
 
-/* AUDIO */
-.audio-section h2 {
-  margin-bottom: 2.5rem;
-}
-
 /* AUDIO BG */
 .audio-bg {
   text-align: center;
-}
-
-.audio-bg h2 {
-  margin-bottom: 2.5rem;
 }
 
 .groove-btn {
