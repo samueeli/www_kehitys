@@ -115,6 +115,21 @@ h2 {
   color: rgb(255, 174, 0);
 }
 
+/* SOURCES */
+.sources{
+  max-width: 90%;
+}
+
+.sources ul{
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.sources li{
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
 /* ANIMATIONS */
 @keyframes groove {
   0%,
