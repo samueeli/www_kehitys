@@ -42,6 +42,11 @@ section{
   transform: scale(1.05);
 }
 
+/* VIDEO */
+.video-section video{
+  box-shadow: 0 0 2px;
+}
+
 /* VIDEO BACKGROUND */
 
 .video-container {
