@@ -1,0 +1,40 @@
+.story nav{
+  z-index: 2;
+}
+
+.story .top-fader{
+  z-index: 0;
+}
+
+.video-bg{
+  overflow: hidden;
+}
+
+.video-bg video{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  opacity: .3;
+}
+
+main{
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.story-text-container p{
+  line-height: 1.5rem;
+  margin: 15px 0;
+}
+
+main .story-container{
+  z-index: 2;
+}
+
+main .bottom-fader{
+  z-index: 0;
+}
