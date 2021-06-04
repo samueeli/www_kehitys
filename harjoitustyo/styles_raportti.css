@@ -91,6 +91,7 @@ p {
 #layout p{
   width: 300px;
   position: relative;
+  z-index: -1;
 }
 
 #layout p:after{
@@ -101,7 +102,6 @@ p {
   border-radius: 50%;
   position: absolute;
   right: 0%;
-  z-index: -1;
 }
 
 #layout p:last-of-type::after{
